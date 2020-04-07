@@ -118,7 +118,7 @@
         nodes = []
         edges = []
 
-        $.get(`http://tdye123.picp.net:12757/character/1?wd=${name}`, function(data) {
+        $.get(`http://localhost:3000/character/1?wd=${name}`, function(data) {
             let first_node = {
                 id: "",
                 name: "",
@@ -348,7 +348,7 @@
     function click(e, i) {
 
         if(e.click_sign !== 1) {
-            $.get(`http://tdye123.picp.net:12757/character/2?wd=${e.id}`, function(data) {
+            $.get(`http://localhost:3000/character/2?wd=${e.id}`, function(data) {
 
                 e.click_sign = 1
                 e.gender = data[0].gender

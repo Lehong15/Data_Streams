@@ -47,7 +47,7 @@ function palceSearch() {
     }
     else{
         $("#alert").text("")
-        $.get(`http://tdye123.picp.net:12757/place/1?wd=${value}`, function(data) {
+        $.get(`http://localhost:3000/place/1?wd=${value}`, function(data) {
             var size = 4;
             if($.isEmptyObject(data)) {
                 $("#places_display").animate({

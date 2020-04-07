@@ -78,7 +78,7 @@ $("#headstream_search").click(function() {
         $("#head_alert").text("输入不能为空！")
     }else {
         $("#head_alert").text("")
-        $.get(`http://tdye123.picp.net:12757/work/3?wd=${value}&source=${option}`, function(data) {
+        $.get(`http://localhost:3000/work/3?wd=${value}&source=${option}`, function(data) {
             if(data.length === 0) {
                 $("#head_info").show()
                 $("#head_info").html(`<p>未找到与“<b>${value}</b>”相关的内容！</p>`)
@@ -113,7 +113,7 @@ $("#classification_search").click(function() {
     let key2 = $("#classification_select2").val()
     
     if(key2 == "false") {
-        $.get(`http://tdye123.picp.net:12757/work/5?source=${key1}&isLoop=${key2}`, function(data) {
+        $.get(`http://localhost:3000/work/5?source=${key1}&isLoop=${key2}`, function(data) {
             let html = `<div class="panel-heading">
                             <h4>${text}</h4>
                         </div>
@@ -128,7 +128,7 @@ $("#classification_search").click(function() {
             $(".panel-body").css("padding-left", "25%")
         })
     }else {
-        $.get(`http://tdye123.picp.net:12757/work/5?source=${key1}&isLoop=${key2}`, function(data) {
+        $.get(`http://localhost:3000/work/5?source=${key1}&isLoop=${key2}`, function(data) {
             // console.log(data)
             let html = `<div class="panel-heading">
                             <h4>${text}</h4>
@@ -206,7 +206,7 @@ $("#books_collections_search").click(function() {
         $("#book_alert").text("输入不能为空！")
     }else {
         $("#book_alert").text("")
-        $.get(`http://tdye123.picp.net:12757/work/6?wd=${value}`, function(data) {
+        $.get(`http://localhost:3000/work/6?wd=${value}`, function(data) {
             if(data.length === 0) {
                 $("#col_info").show()
                 $("#col_info").html(`<p>未找到与“<b>${value}</b>”相关的内容！</p>`)
@@ -246,7 +246,7 @@ $("#books_collections_search").click(function() {
 
 function an_send(uri) {
     $("#ancient_books_show_2").show()
-    $.get(`http://tdye123.picp.net:12757/work/2?wd=${uri}`, function(data) {
+    $.get(`http://localhost:3000/work/2?wd=${uri}`, function(data) {
         $("#ancient_books_show_1").hide()
 
         let html = `<div class="panel-heading" onclick="turn_back()">
@@ -287,7 +287,7 @@ function turn_back() {
 function showHeadstream(uri, title) {
     $("#headstream_show_1").hide()
     $("#headstream_show_2").show()
-    $.get(`http://tdye123.picp.net:12757/work/4?wd=${uri}`, function(data) {
+    $.get(`http://localhost:3000/work/4?wd=${uri}`, function(data) {
         let html = `<div class="panel-heading" onclick="head_back()">
                         <h4 class="panel-title">${title}源流信息</h4>
                     </div>`
@@ -313,7 +313,7 @@ function search(value) {
         $("#an_alert").text("输入不能为空！")
     }else {
         $("#an_alert").text("")
-        $.get(`http://tdye123.picp.net:12757/work/1?wd=${value}`, function(data) {
+        $.get(`http://localhost:3000/work/1?wd=${value}`, function(data) {
             if(data.length === 0) {
                 $("#an_info").show()
                 $("#an_info").html(`<p>未找到与“<b>${value}</b>”相关的内容！</p>`)

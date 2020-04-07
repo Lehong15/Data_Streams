@@ -91,7 +91,7 @@ $("#poem_submit").click(function() {
     }else {
         $("#alert").text("")
         // alert(dyna + "+" + option + "+" + key)
-        $.get(`http://tdye123.picp.net:12757/poem/${option}?key=${key}&dynasty=${dyna}`, function(data) {
+        $.get(`http://localhost:3000/poem/${option}?key=${key}&dynasty=${dyna}`, function(data) {
             if(data === null) {
                 $("#poem_show").html(`<p class="text-danger">未查询到关于<b>“${key}”</b>的信息！</p>`)
             }else {
@@ -128,7 +128,7 @@ $("#antithesis_submit").click(function() {
     }else if(key.length > 3) {
         $("#anti_alert").text("输入值不能超过三个字！")
     }else {
-        $.get(`http://tdye123.picp.net:12757/poem/4?key=${key}`, function(data) {
+        $.get(`http://localhost:3000/poem/4?key=${key}`, function(data) {
             if(data == "null") {
                 $("#anti_display").html(`<p>未查询到关于<b>“${key}”</b>的信息！</p>`)
                 $("#anti_display p").css({"text-align": "center"})

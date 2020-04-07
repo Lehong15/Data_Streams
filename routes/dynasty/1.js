@@ -106,7 +106,6 @@ router.get('/', (req, res, next) => {
 			html['dynasty'] = html2.result[0].dynasty;
 			html['begin'] = html2.result[0].begin;
 			html['end'] = html2.result[0].end;
-
 		} else {
 			html = {
 				'data': '',

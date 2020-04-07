@@ -104,8 +104,8 @@ $("#submit").click(
             $("#alert").text("输入不能为空！")
         }else {
             $("#alert").text("")
-            // let url = `http://tdye123.picp.net:12757/searchbydynasty/${dyna}?wd=${dyna_input}`
-            let url = `http://tdye123.picp.net:12757/dynasty/${dyna}?wd=${dyna_input}`
+            // let url = `http://localhost:3000/searchbydynasty/${dyna}?wd=${dyna_input}`
+            let url = `http://localhost:3000/dynasty/${dyna}?wd=${dyna_input}`
             
             $.get(url, function(data) {
                 if(dyna == 1) {
@@ -227,7 +227,7 @@ $("#submit").click(
 )
 
 function search(key) {
-    $.get(`http://tdye123.picp.net:12757/dynasty/3?wd=${key}`, function(data) {
+    $.get(`http://localhost:3000/dynasty/3?wd=${key}`, function(data) {
         if(data.result.length === 0) {
             // console.log(data)
             $("#display").html(`<p>未查询到关于<b>“${key}”</b>的信息！</p>`)

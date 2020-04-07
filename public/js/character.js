@@ -41,7 +41,7 @@ function search() {
     }else {
         $("#alert").text("")
         $("#info").html(`<p>正在搜索“<font color="#1e90ff">${value}</font>”, 请稍等...</p>`)
-        $.get(`http://tdye123.picp.net:12757/character/1?wd=${value}`, function(data) {
+        $.get(`http://localhost:3000/character/1?wd=${value}`, function(data) {
             $("#info").hide()
             if(data[0] === undefined) {
                 $("#ch_display").html(`<p>找不到与“${value}”有关的信息！</p>`)

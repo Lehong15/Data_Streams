@@ -1,6 +1,6 @@
 var obj = {
-	'name': '叶田地',
-	'age': 20,
+	'name': '李二红',
+	'age': 22,
 	'sex': 'male'
 };
 
