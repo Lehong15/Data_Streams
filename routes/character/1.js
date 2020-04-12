@@ -1,8 +1,8 @@
-var express = require('express');  
-var router = express.Router();  
+var express = require('express');
+var router = express.Router();
 var https = require('https');
 
-/* GET characters page. */  
+/* GET characters page. */
 router.get('/', (req, res, next) => {
 	let html = "";
 	res.writeHead(200, {'Content-Type': 'application/json'});
@@ -13,9 +13,9 @@ router.get('/', (req, res, next) => {
 		'path': path,
 		'method': 'get',
 		'headers': {
-			
+
 		},
-		'timeout': 30*1000
+		'timeout': 60*1000
 	};
 	function fn1() {
 		return new Promise((resolve, reject) => {
@@ -32,6 +32,8 @@ router.get('/', (req, res, next) => {
 			});
 			req.setTimeout(options.timeout, () => {
 				console.log("Timeout!");
+				html = '{"Package" : {"PersonAuthority" : {"PersonInfo" : ""}}}';
+				resolve(html);
 				req.abort();
 			});
 			req.on('error', (e) => {
@@ -49,12 +51,12 @@ router.get('/', (req, res, next) => {
 		var name = '';//姓名
 		var gender = '';//性别
 		var dynasty = '';//朝代
-		
+
 		var birth = '';//出生
 		var dynastyBirth = '';
 		var eraBirth = '';
 		var eraYearBirth = '';
-		
+
 		var death = '';//死亡
 		var dynastyDeath = '';
 		var eraDeath = '';
@@ -72,6 +74,22 @@ router.get('/', (req, res, next) => {
 
 		};
 
+		var personSourcesObj = {
+
+		};
+
+		var personEntryInfoObj = {
+
+		};
+
+		var personPostingsObj = {
+
+		};
+
+		var personSocialStatusObj = {
+
+		};
+
 		let html = await fn1();
 		if (JSON.parse(html).Package.PersonAuthority.PersonInfo == '') {
 			obj = [];
@@ -84,10 +102,18 @@ router.get('/', (req, res, next) => {
 				personKinshipInfoObj = tempObj.PersonKinshipInfo;
 				personTextsObj = tempObj.PersonTexts;
 
+				personSourcesObj = tempObj.PersonSources;
+
+				personEntryInfoObj = tempObj.PersonEntryInfo;
+
+				personPostingsObj = tempObj.PersonPostings;
+
+				personSocialStatusObj = tempObj.PersonSocialStatus;
+
 				personId = basicInfoObj.PersonId;
 
 				name = basicInfoObj.ChName;
-				
+
 				gender = basicInfoObj.Gender;
 				if(gender === '0') {
 					gender = '男';
@@ -127,7 +153,7 @@ router.get('/', (req, res, next) => {
 				if (dynastyDeath == '未詳'||dynastyDeath == '') {
 					dynastyDeath = '';
 				} else {
-					dynastyDeath = '(' + dynastyDeath; 
+					dynastyDeath = '(' + dynastyDeath;
 				}
 
 				if (eraDeath == '未詳'||eraDeath == '') {
@@ -161,14 +187,14 @@ router.get('/', (req, res, next) => {
 						alias.push(aliasObj);
 					} else {
 						alias = aliasObj;
-					} 
+					}
 
 				} else {
 					alias = [];
 				}
 
 				var address = [];
-				
+
 				if (personAddresses != '') {
 					if(Object.keys(personAddresses.Address)[0] != 0) {
 						var addressObj = {
@@ -182,7 +208,7 @@ router.get('/', (req, res, next) => {
 						addressObj['address6'] = personAddresses.Address.belongs5_name;
 						address.push(addressObj);
 					} else {
-						
+
 						for (var j = 0; j < personAddresses.Address.length; j++) {
 							var addressObj = {
 
@@ -196,7 +222,7 @@ router.get('/', (req, res, next) => {
 							address.push(addressObj);
 						}
 					}
-					
+
 				} else {
 					address = [];
 				}
@@ -217,6 +243,141 @@ router.get('/', (req, res, next) => {
 					texts = [];
 				}
 
+				var sourceList = [];
+				var sourceStr = '';
+				if(personSourcesObj == '') {
+					source = [];
+				}else{
+					var sourceObj = personSourcesObj.Source;
+					if(Object.keys(sourceObj)[0] != 0) {
+						let sourceStr1 = sourceObj.Source;
+						let sourceStr2 = sourceObj.Pages;
+						if(sourceStr2 != '') {
+							sourceStr = sourceStr1 + '(' + sourceStr2 + '页)';
+						}else {
+							sourceStr = sourceStr1;
+						}
+						sourceList.push(sourceStr);
+					}else {
+						for(var m = 0; m < sourceObj.length; m ++) {
+							let sourceStr1 = sourceObj[m].Source;
+							let sourceStr2 = sourceObj[m].Pages;
+							if(sourceStr2 != '') {
+								sourceStr = sourceStr1 + '(' + sourceStr2 + '页)';
+							}else {
+								sourceStr = sourceStr1;
+							}
+							sourceList.push(sourceStr);
+						}
+					}
+				}
+
+				var entry = [];
+				if(personEntryInfoObj == ''){
+					entry = [];
+				}else {
+					var EntryObj = personEntryInfoObj.Entry;
+					if(Object.keys(EntryObj)[0] != 0) {
+						var door = EntryObj.RuShiDoor;
+						var type = EntryObj.RuShiType;
+						var year = EntryObj.RuShiYear;
+						var notes = EntryObj.Notes;
+
+						var info = '';
+						if(year == '0' || year == '') {
+							info = notes;
+						}else {
+							info = '(' + year + '年)' + notes;
+						}
+
+						entry.push({
+							'door': door,
+							'type': type,
+							'info': info,
+						});
+					}else {
+						var info;
+						for(var index = 0; index < EntryObj.length; index++) {
+							var door = EntryObj[index].RuShiDoor;
+							var type = EntryObj[index].RuShiType;
+							var year = EntryObj[index].RuShiYear;
+							var notes = EntryObj[index].Notes;
+
+							info = '';
+							if(year == '0' || year == '') {
+								info = notes;
+							}else {
+								info = '(' + year + ')' + notes;
+							}
+
+							entry.push({
+								'door': door,
+								'type': type,
+								'info': info,
+							});
+						}
+					}
+
+				}
+
+				var postings = [];
+				if(personPostingsObj == '') {
+					postings = [];
+				}else {
+					var posting = personPostingsObj.Posting;
+					if(Object.keys(posting)[0] != 0) {
+						var firstYear = posting.FirstYear;
+						var officeName = posting.OfficeName;
+						var type = posting.ChuShouType;
+						var lastYear = posting.LastYear;
+
+						if(lastYear == '0') {
+							lastYear = '';
+						}
+
+						postings.push({
+							'firstYear': firstYear,
+							'name': officeName,
+							'type': type,
+							'lastYear': lastYear,
+						});
+					}else {
+						for(var t = 0; t < posting.length; t++) {
+							var firstYear = posting[t].FirstYear;
+							var officeName = posting[t].OfficeName;
+							var type = posting[t].ChuShouType;
+							var lastYear = posting[t].LastYear;
+
+							if(lastYear == '0') {
+								lastYear = '';
+							}
+
+							postings.push({
+								'firstYear': firstYear,
+								'name': officeName,
+								'type': type,
+								'lastYear': lastYear,
+							});
+						}
+					}
+				}
+
+				var status = [];
+				if(personSocialStatusObj == '') {
+					status = [];
+				}else {
+					var socialStatusObj = personSocialStatusObj.SocialStatus;
+
+					if(Object.keys(socialStatusObj)[0] != 0) {
+						status.push(socialStatusObj.StatusName);
+					}else {
+						for(var id = 0; id < socialStatusObj.length; id ++) {
+							status.push(socialStatusObj[id].StatusName + ' ');
+						}
+					}
+				}
+
+
 
 				var relation = [];
 				if (personKinshipInfoObj == '') {
@@ -230,7 +391,7 @@ router.get('/', (req, res, next) => {
 							'kinRelName': kinship.KinRelName
 						});
 					} else {
-						
+
 						for (var k = 0; k < kinship.length; k++) {
 							var relationObj = {
 
@@ -253,7 +414,11 @@ router.get('/', (req, res, next) => {
 					'alias': alias,
 					'address': address,
 					'relation': relation,
-					'texts': texts
+					'texts': texts,
+					'source': sourceList,
+					'entry': entry,
+					'postings': postings,
+					'status': status,
 				});
 			} else {
 				for (var i = 0; i < tempObj.length; i ++) {
@@ -261,6 +426,14 @@ router.get('/', (req, res, next) => {
 					personAddresses = tempObj[i].PersonAddresses;
 
 					personKinshipInfoObj = tempObj[i].PersonKinshipInfo;
+
+					personSourcesObj = tempObj[i].PersonSources;
+
+					personEntryInfoObj = tempObj[i].PersonEntryInfo;
+
+					personPostingsObj = tempObj[i].PersonPostings;
+
+					personSocialStatusObj = tempObj[i].PersonSocialStatus;
 
 					personId = basicInfoObj.PersonId;
 
@@ -305,7 +478,7 @@ router.get('/', (req, res, next) => {
 					if (dynastyDeath == '未詳'||dynastyDeath == '') {
 						dynastyDeath = '';
 					} else {
-						dynastyDeath = '(' + dynastyDeath; 
+						dynastyDeath = '(' + dynastyDeath;
 					}
 
 					if (eraDeath == '未詳'||eraDeath == '') {
@@ -339,7 +512,7 @@ router.get('/', (req, res, next) => {
 							alias.push(aliasObj)
 						} else {
 							alias = aliasObj;
-						} 
+						}
 
 					} else {
 						alias = [];
@@ -360,7 +533,7 @@ router.get('/', (req, res, next) => {
 							addressObj['address6'] = personAddresses.Address.belongs5_name;
 							address.push(addressObj);
 						} else {
-							
+
 							for (var j = 0; j < personAddresses.Address.length; j++) {
 								var addressObj = {
 
@@ -390,6 +563,140 @@ router.get('/', (req, res, next) => {
 						texts = [];
 					}
 
+					var sourceList = [];
+					var sourceStr = '';
+					if(personSourcesObj == '') {
+						source = [];
+					}else{
+						var sourceObj = personSourcesObj.Source;
+						if(Object.keys(sourceObj)[0] != 0) {
+							let sourceStr1 = sourceObj.Source;
+							let sourceStr2 = sourceObj.Pages;
+							if(sourceStr2 != '') {
+								sourceStr = sourceStr1 + '(' + sourceStr2 + '页)';
+							}else {
+								sourceStr = sourceStr1;
+							}
+							sourceList.push(sourceStr);
+						}else {
+							for(var m = 0; m < sourceObj.length; m ++) {
+								let sourceStr1 = sourceObj[m].Source;
+								let sourceStr2 = sourceObj[m].Pages;
+								if(sourceStr2 != '') {
+									sourceStr = sourceStr1 + '(' + sourceStr2 + '页)';
+								}else {
+									sourceStr = sourceStr1;
+								}
+								sourceList.push(sourceStr);
+							}
+						}
+					}
+
+					var entry = [];
+					if(personEntryInfoObj == ''){
+						entry = [];
+					}else {
+						var EntryObj = personEntryInfoObj.Entry;
+						if(Object.keys(EntryObj)[0] != 0) {
+							var door = EntryObj.RuShiDoor;
+							var type = EntryObj.RuShiType;
+							var year = EntryObj.RuShiYear;
+							var notes = EntryObj.Notes;
+
+							var info = '';
+							if(year == '0' || year == '') {
+								info = notes;
+							}else {
+								info = '(' + year + '年)' + notes;
+							}
+
+							entry.push({
+								'door': door,
+								'type': type,
+								'info': info,
+							});
+						}else {
+							var info;
+							for(var index = 0; index < EntryObj.length; index++) {
+								var door = EntryObj[index].RuShiDoor;
+								var type = EntryObj[index].RuShiType;
+								var year = EntryObj[index].RuShiYear;
+								var notes = EntryObj[index].Notes;
+
+								info = '';
+								if(year == '0' || year == '') {
+									info = notes;
+								}else {
+									info = '(' + year + '年)' + notes;
+								}
+
+								entry.push({
+									'door': door,
+									'type': type,
+									'info': info,
+								});
+							}
+						}
+
+					}
+
+					var postings = [];
+					if(personPostingsObj == '') {
+						postings = [];
+					}else {
+						var posting = personPostingsObj.Posting;
+						if(Object.keys(posting)[0] != 0) {
+							var firstYear = posting.FirstYear;
+							var officeName = posting.OfficeName;
+							var type = posting.ChuShouType;
+							var lastYear = posting.LastYear;
+
+							if(lastYear == '0') {
+								lastYear = '';
+							}
+
+							postings.push({
+								'firstYear': firstYear,
+								'name': officeName,
+								'type': type,
+								'lastYear': lastYear,
+							});
+						}else {
+							for(var t = 0; t < posting.length; t++) {
+								var firstYear = posting[t].FirstYear;
+								var officeName = posting[t].OfficeName;
+								var type = posting[t].ChuShouType;
+								var lastYear = posting[t].LastYear;
+
+								if(lastYear == '0') {
+									lastYear = '';
+								}
+
+								postings.push({
+									'firstYear': firstYear,
+									'name': officeName,
+									'type': type,
+									'lastYear': lastYear,
+								});
+							}
+						}
+					}
+
+
+					var status = [];
+					if(personSocialStatusObj == '') {
+						status = [];
+					}else {
+						var socialStatusObj = personSocialStatusObj.SocialStatus;
+
+						if(Object.keys(socialStatusObj)[0] != 0) {
+							status.push(socialStatusObj.StatusName);
+						}else {
+							for(var id = 0; id < socialStatusObj.length; id ++) {
+								status.push(socialStatusObj[id].StatusName + ' ');
+							}
+						}
+					}
 
 					var relation = [];
 					if (personKinshipInfoObj == '') {
@@ -424,17 +731,18 @@ router.get('/', (req, res, next) => {
 						'alias': alias,
 						'address': address,
 						'relation': relation,
-						'texts': texts
+						'texts': texts,
+						'source': sourceList,
+						'entry': entry,
+						'postings': postings,
+						'status': status,
 					});
 				}
 			}
-
 		}
-		//console.log(obj);
 		res.write(JSON.stringify(obj));
-
 		res.end();
 	};
 	fn2();
-});  
-module.exports = router;  
+});
+module.exports = router;

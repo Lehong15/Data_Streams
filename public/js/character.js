@@ -32,10 +32,13 @@ $("#ch_input").click(function() {
 
 $("#ch_search").click(search)
 
+var search_name;
+
 function search() {
     let value = $("#ch_input").val()
     let reg = /\s/g
     value = value.replace(reg, "")
+    search_name = value;
     if(value == "") {
         $("#alert").text("输入不能为空！")
     }else {
@@ -56,11 +59,30 @@ function search() {
                                 <div class="panel-body">
                                     <p><b>性别</b>：${data[i].gender}</p>
                                     <p><b>朝代</b>：<a onclick="send_dyna('${data[i].dynasty}')">${data[i].dynasty}</a></p>
-                                    <p><b>生</b>：${data[i].birth}</p>
-                                    <p><b>卒</b>：${data[i].death}</p>`
+                                    <p><b>&emsp;生</b>：${data[i].birth}</p>
+                                    <p><b>&emsp;卒</b>：${data[i].death}</p>`
                     for(let j = 0; j < data[i].alias.length; j ++) {
-                        html += `<p><b>${data[i].alias[j].AliasType}</b>：${data[i].alias[j].AliasName}</p>`
+                        if(data[i].alias[j].AliasType.length == 1) {
+                            html += `<p>&emsp;<b>${data[i].alias[j].AliasType}</b>：${data[i].alias[j].AliasName}</p>`;
+                        }else {
+                            html += `<p><b>${data[i].alias[j].AliasType}</b>：${data[i].alias[j].AliasName}</p>`
+                        }
+
                     }
+
+                    var sources = ``;
+                    for(let m = 0; m < data[i].source.length; m ++) {
+                        if(m == 0) {
+                            sources += data[i].source[m];
+                            sources += `</br>`;
+                        }else {
+                            sources += `&emsp;&emsp;&emsp;`;
+                            sources += data[i].source[m];
+                            sources += `</br>`;
+                        }
+                    }
+                    html += `<p><b>来源</b>：${sources}</p>`;
+
                     let address = ""
                     let str = ""
                     for(let j = 0; j < data[i].address.length; j ++) {
@@ -76,7 +98,7 @@ function search() {
                                             }
                                         }else {
                                             str = `<a onclick="send_place('${data[i].address[j].address1}')">${data[i].address[j].address1}</a>\
-                                            <a onclick="send_dyna('${data[i].address[j].address2}')">${data[i].address[j].address2}</a>` 
+                                            <a onclick="send_dyna('${data[i].address[j].address2}')">${data[i].address[j].address2}</a>`
                                         }
                                     }else {
                                         str = `<a onclick="send_place('${data[i].address[j].address1}')">${data[i].address[j].address1}</a>\
@@ -105,7 +127,7 @@ function search() {
                                     <a onclick="send_dyna('${data[i].address[j].address6}')">${data[i].address[j].address6}</a>`
                         }
                         if(j >= 1) {
-                            address += `&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp${str}<br>`
+                            address += `&emsp;&emsp;&emsp;${str}<br>`
                         }else {
                             address += `${str}<br>`
                         }
@@ -115,16 +137,23 @@ function search() {
                     let texts = '';
                     let str1 = '';
                     for (var k = 0; k < data[i].texts.length; k ++) {
-                        str1 = `<a onclick="send_work('${data[i].texts[k].TextName}')">${data[i].texts[k].TextName}</a>&emsp;`
-
+                        if(k == 0) {
+                            str1 = `<a onclick="send_work('${data[i].texts[k].TextName}')">${data[i].texts[k].TextName}</a></br>`
+                        }else {
+                            str1 = `&emsp;&emsp;&nbsp;<a onclick="send_work('${data[i].texts[k].TextName}')">${data[i].texts[k].TextName}</a></br>`
+                        }
                         texts += str1;
-
                     }
-                    html += `<p><b>作品</b>：${texts}`
+                    html += `<p><b>作品</b>：${texts}</p>`;
 
-                 
-                    html += `<input type="button" class="form-control" value="人物关系" onclick="clickBubbble('${data[i].name}', ${i})">
-                            </div></div>`
+                    let statusStr = ``;
+                    for(var k = 0; k < data[i].status.length; k ++) {
+                        statusStr += data[i].status[k];
+                    }
+                    html += `<p><b>社会地位</b>:${statusStr}</p>`;
+
+                    html += `<input type="button" class="form-control" style="width: 50%; float: left" value="人物关系" onclick="clickBubbble('${search_name}', ${i})">
+                            <input type="button" class="form-control" style="width: 50%; float: left" value="入仕任职" onclick="beOfficial('${data[i].id}')"></div></div>`
                 }
                 $("#ch_display").html(html)
                 $(".panel-heading").css("text-align", "center")
@@ -137,6 +166,11 @@ function clickBubbble (data, i) {
     localStorage.setItem("name", data)
     localStorage.setItem("name_id", i)
     $(window).prop("location", "bubble.html")
+}
+
+function beOfficial (id) {
+    localStorage.setItem('id', id);
+    $(window).prop("location", "beOfficial.html")
 }
 
 function send_place (place) {
