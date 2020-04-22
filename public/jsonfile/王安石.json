@@ -1,0 +1,2445 @@
+{
+        
+        "Package" : {
+                
+        "PersonAuthority" : {
+                "DataSource" : "CBDB",
+    
+        "Version" : "20131220",
+        "PersonInfo" : {
+                
+        "Person" : {
+                
+        "BasicInfo" : {
+                
+        "PersonId" : "1762",
+        "EngName" : "Wang Anshi",
+        "ChName" : "王安石",
+        "IndexYear" : "1080",
+        "Gender" : "0",
+        "YearBirth" : "1021",
+        "DynastyBirth" : "北宋",
+        "EraBirth" : "天禧",
+        "EraYearBirth" : "5",
+        "YearDeath" : "1086",
+        "DynastyDeath" : "北宋",
+        "EraDeath" : "元祐",
+        "EraYearDeath" : "1",
+        "YearsLived" : "66",
+        "Dynasty" : "宋",
+        "JunWang" : "太原",
+        "Notes" : "Wang(2) Anshi [1762] Yi(3)'s [7082] son, Guan(1)'s [1841] grandnephew, Anguo's [7076], Anli's [1760], and Anshang's [1761] brother, Fang's [1803] uncle, Jue(1)'s [1796] great grandfather, Zhu(1) Mingzhi's [526] and Shen(2) Jichang's [1445] brother-in-law, Cai(1) Bian's [8131] father-in-law and uncle-in-law, and Wu(3) Anchi's [1957] father-in-law. Anshi was Zhang(1) Jifu's [195], Xu(3) Xi's [753] and Yang(2) Wei's [2032] patron, Li(2) Ding(1)'s [1097] patron and teacher, Gong(2) Yuan' s [941] teacher, and the teacher of Wang(2) Pin's [7381] uncle, Boqi [3970]. He was the grandnephew of Wang(2) Guanzhi [3965], the father-in-law of Zhou(1) Jiazheng's [480] son, Yanxian [3250]. His mother was Wu(3) Shi and his wife was Wu(3) Shi. He once arranged for a marriage between his wife's younger sister and Wang(2) Ling [3967] whose scholarship he admired. The sister's, and therefore Wang Anshi's wife's, grandfather, Wu(3) Min [4017], had the same generational name and address as Anshi's maternal grandfather, Wu(3) Tian [7396], so that it can be assumed that they were brothers or cousins. When Wang Anshi composed the funerary inscription for the two women's father, Wu(3) Ben [4020], in 1054, neither daughter was married. Wang(2) Ling died in 1059 at the age of 28. Wang Anshi was 32 in 1054. Wang(2) Ling was Wu(3) Yue's [1992] maternal grandfather. The mother of Yan(5) Shu's [2073] grandnephew, Fang [4118], was the younger sister of Wang(2) Anshi's wife, Wu(2) Shi. Songshi yi, 5.5b discusses the coalitional significance of the fact that Lu(9) Jiawen's [1294] son married the daughter of Wang Anshi's son, Pang(a) [3968], and that Cai(1) Bian [8131] married Pang's elder sister. Anshi was a friend of Wang(2) Ping's [1856] son, Hui [3958] and his older and younger brothers were tongnianyou with the sons of Chen(1) Jiansu [7101]. XCB, 177.2a, 179.3a, 184.15a, 188.8a, 189.3a, 18a, 191.9a-10a, 192.4a-4b, 7a; XCBSB, 4.4b, 15.17a, 16.14b; Shen Gou, WJ, 2.48b; SHY:ZG, 5.1a; Zeng Gong, WJ, 45.4b; Du Dagui, 'xia,' 14.1a; Wang Anshi, WJ, 97.998, 98.1012; Wang Ling, WJ, 'fu,' 13b. CBD, 1, 277-281.From Hartwell's ACTIVITY table:1075:  Working on the railroad all the time all the time all the time"
+    },
+        "PersonSources" : {
+                
+        "Source" : {
+                
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    }
+    },
+        "PersonAliases" : { "Alias" :[{
+                
+        "AliasType" : "字",
+        "AliasName" : "介甫"
+    },{
+                
+        "AliasType" : "室名、別號",
+        "AliasName" : "半山老人"
+    },{
+                
+        "AliasType" : "諡號",
+        "AliasName" : "文"
+    },{
+                
+        "AliasType" : "小字",
+        "AliasName" : "獾郎"
+    },{
+                
+        "AliasType" : "封爵",
+        "AliasName" : "王荊公"
+    }] },
+        "PersonAddresses" : {
+                
+        "Address" : {
+                
+        "AddrType" : "籍貫(基本地址)",
+        "AddrName" : "臨川",
+        "belongs1_name" : "撫州",
+        "belongs2_name" : "江南西路",
+        "belongs3_name" : "宋朝",
+        "belongs4_name" : "",
+        "belongs5_name" : "",
+        "MoveCount" : "0",
+        "FirstYear" : "0",
+        "LastYear" : "0",
+        "Source" : "未知",
+        "Pages" : "0000",
+        "Notes" : ""
+    }
+    },
+        "PersonEntryInfo" : {
+                
+        "Entry" : {
+                
+        "RuShiDoor" : "正常科舉",
+        "RuShiType" : "科舉: 進士(籠統)",
+        "RuShiYear" : "1042",
+        "RuShiAge" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    }
+    },
+        "PersonPostings" : { "Posting" :[{
+                
+        "OfficeId" : "28",
+        "OfficeName" : "尚書省工部侍郎",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "149",
+        "OfficeName" : "參知政事",
+        "AddrId" : "10989",
+        "AddrName" : "宋朝",
+        "FirstYear" : "1069",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : "Hartwell defined the office as Canzhi zhengshi (參知政事)"
+    },{
+                
+        "OfficeId" : "273",
+        "OfficeName" : "觀文殿大學士",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "1074",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "約",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩江郡守易替考",
+        "Pages" : "",
+        "Notes" : "LZL MasterFileLineID12308"
+    },{
+                
+        "OfficeId" : "287",
+        "OfficeName" : "國公",
+        "AddrId" : "25021",
+        "AddrName" : "荊國",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "封",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "299",
+        "OfficeName" : "翰林學士",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "1068",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "447",
+        "OfficeName" : "節度使",
+        "AddrId" : "30046",
+        "AddrName" : "鎮南軍節度",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "377",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "474",
+        "OfficeName" : "龍圖閣待制",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "491",
+        "OfficeName" : "磨勘京朝官院",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "封",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "510",
+        "OfficeName" : "起居郎",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "518",
+        "OfficeName" : "卿",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "1074",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "約",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩江郡守易替考",
+        "Pages" : "",
+        "Notes" : "LZL MasterFileLineID12308"
+    },{
+                
+        "OfficeId" : "629",
+        "OfficeName" : "封駁司",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "691",
+        "OfficeName" : "司空",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "716",
+        "OfficeName" : "太常寺博士",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "1057",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "約",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩浙路郡守年表",
+        "Pages" : "",
+        "Notes" : "LZL MasterFileLineID14040"
+    },{
+                
+        "OfficeId" : "729",
+        "OfficeName" : "太傅",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "贈",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "759",
+        "OfficeName" : "特進",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "1074",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "約",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩江郡守易替考",
+        "Pages" : "",
+        "Notes" : "LZL MasterFileLineID12308"
+    },{
+                
+        "OfficeId" : "793",
+        "OfficeName" : "通判",
+        "AddrId" : "12628",
+        "AddrName" : "舒州",
+        "FirstYear" : "1051",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1054",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "805",
+        "OfficeName" : "同中書門下平章事",
+        "AddrId" : "10989",
+        "AddrName" : "宋朝",
+        "FirstYear" : "1071",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1074",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : "Hartwell defined the office as Tong Zhongshu Menxia Pingzhang shi (同中書門下平章事)"
+    },{
+                
+        "OfficeId" : "946",
+        "OfficeName" : "知某縣事",
+        "AddrId" : "100584",
+        "AddrName" : "鄞縣",
+        "FirstYear" : "1047",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1050",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "2363",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "948",
+        "OfficeName" : "知制誥",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "1062",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "約",
+        "LastYear" : "1064",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "約",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩浙路郡守年表",
+        "Pages" : "",
+        "Notes" : "LZLMasterFileLine12301"
+    },{
+                
+        "OfficeId" : "950",
+        "OfficeName" : "知某州軍州事",
+        "AddrId" : "101029",
+        "AddrName" : "江寧府",
+        "FirstYear" : "1074",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1075",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩江郡守易替考",
+        "Pages" : "",
+        "Notes" : "LZLMasterFileLineID 12308"
+    },{
+                
+        "OfficeId" : "950",
+        "OfficeName" : "知某州軍州事",
+        "AddrId" : "101029",
+        "AddrName" : "江寧府",
+        "FirstYear" : "1076",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1077",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "判",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩江郡守易替考",
+        "Pages" : "",
+        "Notes" : "LZLMasterFileLineID 12310"
+    },{
+                
+        "OfficeId" : "950",
+        "OfficeName" : "知某州軍州事",
+        "AddrId" : "101029",
+        "AddrName" : "江寧府",
+        "FirstYear" : "1067",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1067",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩江郡守易替考",
+        "Pages" : "",
+        "Notes" : "LZLMasterFileLineID 12301"
+    },{
+                
+        "OfficeId" : "950",
+        "OfficeName" : "知某州軍州事",
+        "AddrId" : "12721",
+        "AddrName" : "常州",
+        "FirstYear" : "1057",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1058",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩浙路郡守年表",
+        "Pages" : "",
+        "Notes" : "LZLMasterFileLineID 14040"
+    },{
+                
+        "OfficeId" : "2213",
+        "OfficeName" : "群牧判官",
+        "AddrId" : "10989",
+        "AddrName" : "宋朝",
+        "FirstYear" : "1054",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1056",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : "Hartwell defined the office as Qunmu panguan (群牧判官)"
+    },{
+                
+        "OfficeId" : "1930",
+        "OfficeName" : "同修起居注",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "2095",
+        "OfficeName" : "三司戶部副使",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "2123",
+        "OfficeName" : "三司度支判官",
+        "AddrId" : "10989",
+        "AddrName" : "宋朝",
+        "FirstYear" : "1058",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1061",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : "Hartwell defined the office as Duzhi panguan (度支判官)"
+    },{
+                
+        "OfficeId" : "2294",
+        "OfficeName" : "監修國史",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "1075",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "2314",
+        "OfficeName" : "直集賢院",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "2498",
+        "OfficeName" : "尚書省禮部祠部司員外郎",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "2531",
+        "OfficeName" : "尚書省刑部刑部司員外郎",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "2543",
+        "OfficeName" : "尚書省工部工部司郎中",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "1067",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "約",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩江郡守易替考",
+        "Pages" : "",
+        "Notes" : "LZL MasterFileLineID12301"
+    },{
+                
+        "OfficeId" : "3387",
+        "OfficeName" : "國王",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "0",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "3954",
+        "OfficeName" : "某軍節度使",
+        "AddrId" : "30046",
+        "AddrName" : "鎮南軍節度",
+        "FirstYear" : "1076",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "約",
+        "LastYear" : "0",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩江郡守易替考",
+        "Pages" : "",
+        "Notes" : "LZL MasterFileLineID12310"
+    },{
+                
+        "OfficeId" : "5248",
+        "OfficeName" : "提點刑獄所",
+        "AddrId" : "12824",
+        "AddrName" : "江南東路",
+        "FirstYear" : "1058",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1059",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "5342",
+        "OfficeName" : "簽書節度判官廳",
+        "AddrId" : "12433",
+        "AddrName" : "淮南東路",
+        "FirstYear" : "1042",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1044",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "OfficeId" : "5833",
+        "OfficeName" : "同中書門下平章事、昭文館大學士、監修國史",
+        "AddrId" : "0",
+        "AddrName" : "[未詳]",
+        "FirstYear" : "1075",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1076",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "宋兩江郡守易替考",
+        "Pages" : "",
+        "Notes" : "LZL MasterFileLineID12310"
+    },{
+                
+        "OfficeId" : "6078",
+        "OfficeName" : "丁母憂",
+        "AddrId" : "101029",
+        "AddrName" : "江寧府",
+        "FirstYear" : "1064",
+        "FirstYearNianhao" : "未詳",
+        "FirstYearNiaohaoYear" : "0",
+        "FirstYearRange" : "之間",
+        "LastYear" : "1066",
+        "LastYearNianhao" : "未詳",
+        "LastYearNianhaoYear" : "0",
+        "LastYearRange" : "之間",
+        "ChuShouType" : "正授",
+        "WhetherTakesOrNot" : "",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    }] },
+        "PersonSocialStatus" : { "SocialStatus" :[{
+                
+        "StatusName" : "書法家",
+        "FirstYear" : "",
+        "LastYear" : ""
+    },{
+                
+        "StatusName" : "畫家",
+        "FirstYear" : "",
+        "LastYear" : ""
+    },{
+                
+        "StatusName" : "好學",
+        "FirstYear" : "",
+        "LastYear" : ""
+    },{
+                
+        "StatusName" : "[財政官員]",
+        "FirstYear" : "0",
+        "LastYear" : "0"
+    },{
+                
+        "StatusName" : "[宰執]",
+        "FirstYear" : "0",
+        "LastYear" : "0"
+    }] },
+        "PersonKinshipInfo" : { "Kinship" :[{
+                
+        "KinPersonId" : "3965",
+        "KinPersonName" : "王貫之",
+        "KinCode" : "64",
+        "KinRel" : "FFB",
+        "KinRelName" : "從祖;伯叔祖",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "7082",
+        "KinPersonName" : "王益",
+        "KinCode" : "75",
+        "KinRel" : "F",
+        "KinRelName" : "父",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "812",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "4020",
+        "KinPersonName" : "吳蕡",
+        "KinCode" : "76",
+        "KinRel" : "WF",
+        "KinRelName" : "岳父",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "5134",
+        "KinPersonName" : "吳氏(王益妻)",
+        "KinCode" : "111",
+        "KinRel" : "M",
+        "KinRelName" : "母",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "21944",
+        "KinPersonName" : "王安仁",
+        "KinCode" : "125",
+        "KinRel" : "B+",
+        "KinRelName" : "兄",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1535",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "1760",
+        "KinPersonName" : "王安禮",
+        "KinCode" : "126",
+        "KinRel" : "B-",
+        "KinRelName" : "弟",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1543",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "7076",
+        "KinPersonName" : "王安國",
+        "KinCode" : "126",
+        "KinRel" : "B-",
+        "KinRelName" : "弟",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1538",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "38653",
+        "KinPersonName" : "吳氏(王安石妻)",
+        "KinCode" : "135",
+        "KinRel" : "W",
+        "KinRelName" : "妻子",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536;1537",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "526",
+        "KinPersonName" : "朱明之",
+        "KinCode" : "159",
+        "KinRel" : "Z-H",
+        "KinRelName" : "妹夫",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "18876",
+        "KinPersonName" : "吳顯道",
+        "KinCode" : "137",
+        "KinRel" : "WB+",
+        "KinRelName" : "妻兄",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "3967",
+        "KinPersonName" : "王令",
+        "KinCode" : "173",
+        "KinRel" : "WZH",
+        "KinRelName" : "連襟;妻姊妹之夫",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "600",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "1649",
+        "KinPersonName" : "蔡京",
+        "KinCode" : "178",
+        "KinRel" : "BDH",
+        "KinRelName" : "姪女之夫",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "20884",
+        "KinPersonName" : "沈銖",
+        "KinCode" : "179",
+        "KinRel" : "ZS",
+        "KinRelName" : "外甥",
+        "Source" : "宋史",
+        "Pages" : "",
+        "Notes" : "據宋史列傳CBDB宋史分傳#1035"
+    },{
+                
+        "KinPersonId" : "20896",
+        "KinPersonName" : "沈錫",
+        "KinCode" : "179",
+        "KinRel" : "ZS",
+        "KinRelName" : "外甥",
+        "Source" : "宋史",
+        "Pages" : "",
+        "Notes" : "據宋史列傳CBDB宋史分傳#1035"
+    },{
+                
+        "KinPersonId" : "3968",
+        "KinPersonName" : "王雱",
+        "KinCode" : "180",
+        "KinRel" : "S",
+        "KinRelName" : "子",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "954",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "21968",
+        "KinPersonName" : "王滂",
+        "KinCode" : "180",
+        "KinRel" : "S",
+        "KinRelName" : "子",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "7404",
+        "KinPersonName" : "葉濤",
+        "KinCode" : "181",
+        "KinRel" : "DH",
+        "KinRelName" : "女婿",
+        "Source" : "宋史",
+        "Pages" : "",
+        "Notes" : "據宋史列傳CBDB宋史分傳#1055"
+    },{
+                
+        "KinPersonId" : "8131",
+        "KinPersonName" : "蔡卞",
+        "KinCode" : "181",
+        "KinRel" : "DH",
+        "KinRelName" : "女婿",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "38456",
+        "KinPersonName" : "王景",
+        "KinCode" : "240",
+        "KinRel" : "BSS",
+        "KinRelName" : "姪孫;從孫",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "993",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "1294",
+        "KinPersonName" : "呂嘉問",
+        "KinCode" : "244",
+        "KinRel" : "SDH",
+        "KinRelName" : "孫女婿",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "1796",
+        "KinPersonName" : "王珏",
+        "KinCode" : "255",
+        "KinRel" : "SSS",
+        "KinRelName" : "曾孫; 重孫",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "765",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "13425",
+        "KinPersonName" : "石斗文",
+        "KinCode" : "254",
+        "KinRel" : "BSSDH",
+        "KinRelName" : "曾姪孫女婿",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "100909",
+        "KinPersonName" : "王熙",
+        "KinCode" : "282",
+        "KinRel" : "G+10",
+        "KinRelName" : "十世孫",
+        "Source" : "元人傳記資料索引",
+        "Pages" : "732",
+        "Notes" : "安石十世孫"
+    },{
+                
+        "KinPersonId" : "41576",
+        "KinPersonName" : "王氏(吳安持妻)",
+        "KinCode" : "327",
+        "KinRel" : "D1",
+        "KinRelName" : "長女",
+        "Source" : "明清婦女著作數據庫",
+        "Pages" : "2148",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "1957",
+        "KinPersonName" : "吳安持",
+        "KinCode" : "332",
+        "KinRel" : "D1H",
+        "KinRelName" : "長女婿",
+        "Source" : "明清婦女著作數據庫",
+        "Pages" : "2148",
+        "Notes" : ""
+    }] },
+        "PersonSocialAssociation" : { "Association" :[{
+                
+        "AssocPersonId" : "77",
+        "AssocPersonName" : "陳升之",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "",
+        "TextTitle" : "封秀國公 升之深狡多智數 初附王安石 既為相 時為小異",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "14165",
+        "Notes" : "封秀國公 升之深狡多智數 初附王安石 既為相 時為小異"
+    },{
+                
+        "AssocPersonId" : "195",
+        "AssocPersonName" : "張吉甫",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "485",
+        "AssocPersonName" : "周穜",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "1110",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "753",
+        "AssocPersonName" : "徐禧",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1024",
+        "AssocPersonName" : "李復圭",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1521",
+        "AssocPersonName" : "孫覺",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1630",
+        "AssocPersonName" : "鄧綰",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1647",
+        "AssocPersonName" : "蔡確",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "",
+        "TextTitle" : "第嘉祐四年進士 擢監察御史裏行 初附王安石 及知神宗已厭之 即疏其過以賈直",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "20923",
+        "Notes" : "第嘉祐四年進士 擢監察御史裏行 初附王安石 及知神宗已厭之 即疏其過以賈直"
+    },{
+                
+        "AssocPersonId" : "2032",
+        "AssocPersonName" : "楊畏",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "7286",
+        "AssocPersonName" : "練亨甫",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "7383",
+        "AssocPersonName" : "王子韶",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "12125",
+        "AssocPersonName" : "程昉",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "16211",
+        "AssocPersonName" : "錢景諶",
+        "AssocCode" : "4",
+        "AssocName" : "是Y的恩主",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1294",
+        "AssocPersonName" : "呂嘉問",
+        "AssocCode" : "7",
+        "AssocName" : "黨羽為Y",
+        "Year" : "1078",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "11030",
+        "AssocPersonName" : "鄭蒨",
+        "AssocCode" : "8",
+        "AssocName" : "黨魁為Y",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "395",
+        "AssocPersonName" : "趙鼎臣",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "",
+        "TextTitle" : "官至太府卿 有竹隱畸士集 鼎臣與蘇軾、王安石諸人交好 相與酬和 故所作具有門徑",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "19762",
+        "Notes" : "官至太府卿 有竹隱畸士集 鼎臣與蘇軾、王安石諸人交好 相與酬和 故所作具有門徑"
+    },{
+                
+        "AssocPersonId" : "728",
+        "AssocPersonName" : "謝景溫",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "728",
+        "AssocPersonName" : "謝景溫",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "",
+        "TextTitle" : "絳次子 中皇祐元年進士第 與王安石善 自京西淮南轉運使驟擢侍御史 誣劾蘇軾",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "22606",
+        "Notes" : "絳次子 中皇祐元年進士第 與王安石善 自京西淮南轉運使驟擢侍御史 誣劾蘇軾"
+    },{
+                
+        "AssocPersonId" : "971",
+        "AssocPersonName" : "李常",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1521",
+        "AssocPersonName" : "孫覺",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "",
+        "TextTitle" : "登皇祐元年進士第 累擢至右正言 王安石早與覺善 驟引用之 將援以為助",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "10497",
+        "Notes" : "登皇祐元年進士第 累擢至右正言 王安石早與覺善 驟引用之 將援以為助"
+    },{
+                
+        "AssocPersonId" : "1897",
+        "AssocPersonName" : "王存",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "",
+        "TextTitle" : "為歐陽修、呂公著所知 歷知太常禮院 與王安石厚 安石執政 數引與論事",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "616",
+        "Notes" : "為歐陽修、呂公著所知 歷知太常禮院 與王安石厚 安石執政 數引與論事"
+    },{
+                
+        "AssocPersonId" : "3799",
+        "AssocPersonName" : "宋保國",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "3958",
+        "AssocPersonName" : "王回",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "12989",
+        "AssocPersonName" : "潘興嗣",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "13574",
+        "AssocPersonName" : "張伯孫",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "19871",
+        "AssocPersonName" : "王該",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "0",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "39075",
+        "AssocPersonName" : "饒竦",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "0",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "40134",
+        "AssocPersonName" : "求仲弓",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "",
+        "TextTitle" : "與王安石為文字交",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : "與王安石為文字交"
+    },{
+                
+        "AssocPersonId" : "40401",
+        "AssocPersonName" : "釋贊元",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "13916",
+        "AssocPersonName" : "張戩",
+        "AssocCode" : "12",
+        "AssocName" : "被Y彈劾",
+        "Year" : "",
+        "TextTitle" : "第進士 熙寧初為監察御史裏行 累章論王安石亂法 出知公安縣 徙夏縣",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "12710",
+        "Notes" : "第進士 熙寧初為監察御史裏行 累章論王安石亂法 出知公安縣 徙夏縣"
+    },{
+                
+        "AssocPersonId" : "53771",
+        "AssocPersonName" : "釋瑞新",
+        "AssocCode" : "9",
+        "AssocName" : "友",
+        "Year" : "",
+        "TextTitle" : "值火寺燬 乃勸州之人士為建水陸堂 新與王安石相交 後移主金山之龍游 皇祐五年卒",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "24512",
+        "Notes" : "值火寺燬 乃勸州之人士為建水陸堂 新與王安石相交 後移主金山之龍游 皇祐五年卒"
+    },{
+                
+        "AssocPersonId" : "22202",
+        "AssocPersonName" : "王越石",
+        "AssocCode" : "10",
+        "AssocName" : "同年友",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "11135",
+        "AssocPersonName" : "余象",
+        "AssocCode" : "12",
+        "AssocName" : "被Y彈劾",
+        "Year" : "",
+        "TextTitle" : "慶曆六年進士 歷官光祿丞 首奏王安石議論詭辯 名實炫耀 為國家之巨蠹",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "6755",
+        "Notes" : "慶曆六年進士 歷官光祿丞 首奏王安石議論詭辯 名實炫耀 為國家之巨蠹"
+    },{
+                
+        "AssocPersonId" : "12125",
+        "AssocPersonName" : "程昉",
+        "AssocCode" : "11",
+        "AssocName" : "彈劾",
+        "Year" : "",
+        "TextTitle" : "以小黃門積遷西京左藏庫副使 熙寧初 王安石欲興水利 以昉知河事 使任制置河北河防水利",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "16549",
+        "Notes" : "以小黃門積遷西京左藏庫副使 熙寧初 王安石欲興水利 以昉知河事 使任制置河北河防水利"
+    },{
+                
+        "AssocPersonId" : "147",
+        "AssocPersonName" : "錢公輔",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "147",
+        "AssocPersonName" : "錢公輔",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "0",
+        "TextTitle" : "舉錢公輔自代狀 / 臨川集",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "22346",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "662",
+        "AssocPersonName" : "韓宗師",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1201",
+        "AssocPersonName" : "劉彝",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1201",
+        "AssocPersonName" : "劉彝",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "0",
+        "TextTitle" : "舉屯田員外郎劉彝狀 / 臨川集",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "21454",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1309",
+        "AssocPersonName" : "呂惠卿",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1314",
+        "AssocPersonName" : "呂公著",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1314",
+        "AssocPersonName" : "呂公著",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "0",
+        "TextTitle" : "舉呂公著自代狀 / 臨川集",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "6603",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1323",
+        "AssocPersonName" : "呂升卿",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "3828",
+        "AssocPersonName" : "唐坰",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "1057",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "7286",
+        "AssocPersonName" : "練亨甫",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "",
+        "TextTitle" : "七歲能屬文 十四歲入京師 王安石奇之 呼為小友 引為白衣檢討",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "21112",
+        "Notes" : "七歲能屬文 十四歲入京師 王安石奇之 呼為小友 引為白衣檢討"
+    },{
+                
+        "AssocPersonId" : "7383",
+        "AssocPersonName" : "王子韶",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "",
+        "TextTitle" : "或云浙右人 中進士第 王安石引入條例司 擢監察御史裏行 安石惡祖無擇",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1367",
+        "Notes" : "或云浙右人 中進士第 王安石引入條例司 擢監察御史裏行 安石惡祖無擇"
+    },{
+                
+        "AssocPersonId" : "10660",
+        "AssocPersonName" : "劉涇",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "21072",
+        "AssocPersonName" : "石賡",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "15074",
+        "AssocPersonName" : "陳敏",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "24811",
+        "AssocPersonName" : "常秩",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "27078",
+        "AssocPersonName" : "陳樞",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "27078",
+        "AssocPersonName" : "陳樞",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "0",
+        "TextTitle" : "舉陳樞充錢穀職司狀 / 臨川集",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "13915",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1384",
+        "AssocPersonName" : "歐陽修",
+        "AssocCode" : "14",
+        "AssocName" : "被Y推薦",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1384",
+        "AssocPersonName" : "歐陽修",
+        "AssocCode" : "14",
+        "AssocName" : "被Y推薦",
+        "Year" : "0",
+        "TextTitle" : "蔗王安石劄子 / 歐陽文忠公集",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "1536",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "39051",
+        "AssocPersonName" : "饒子儀",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "0",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "40158",
+        "AssocPersonName" : "成倬",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "",
+        "TextTitle" : "熙寧間，王安石用事，以其通經術，置諸門下。懇歸，安石惜其志未遂，特薦得右選。",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : "熙寧間，王安石用事，以其通經術，置諸門下。懇歸，安石惜其志未遂，特薦得右選。"
+    },{
+                
+        "AssocPersonId" : "43955",
+        "AssocPersonName" : "段充",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "43955",
+        "AssocPersonName" : "段充",
+        "AssocCode" : "13",
+        "AssocName" : "推薦",
+        "Year" : "0",
+        "TextTitle" : "舉古渭寨都監院段充充兵官任便狀 / 臨川集",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "9328",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "11688",
+        "AssocPersonName" : "高氏(趙曙妻)",
+        "AssocCode" : "16",
+        "AssocName" : "遭到Y的反對/攻訐",
+        "Year" : "",
+        "TextTitle" : "帝年幼 太皇太后攝政 退王安石之黨 用司馬光等 廢新法",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "9667",
+        "Notes" : "帝年幼 太皇太后攝政 退王安石之黨 用司馬光等 廢新法"
+    },{
+                
+        "AssocPersonId" : "12124",
+        "AssocPersonName" : "盛陶",
+        "AssocCode" : "16",
+        "AssocName" : "遭到Y的反對/攻訐",
+        "Year" : "",
+        "TextTitle" : "熙寧中為監察御史 疏劾李復圭、程昉 二人實王安石所主 陶不出屈 陞侍御史",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "16150",
+        "Notes" : "熙寧中為監察御史 疏劾李復圭、程昉 二人實王安石所主 陶不出屈 陞侍御史"
+    },{
+                
+        "AssocPersonId" : "25203",
+        "AssocPersonName" : "趙粹中",
+        "AssocCode" : "16",
+        "AssocName" : "遭到Y的反對/攻訐",
+        "Year" : "",
+        "TextTitle" : "遷給事中 後除吏部侍郎 嘗上乞罷王安石父子從祀疏 及雪岳飛冤狀 又集司馬光、范鎮等奏議",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "19775",
+        "Notes" : "遷給事中 後除吏部侍郎 嘗上乞罷王安石父子從祀疏 及雪岳飛冤狀 又集司馬光、范鎮等奏議"
+    },{
+                
+        "AssocPersonId" : "1078",
+        "AssocPersonName" : "李師中",
+        "AssocCode" : "16",
+        "AssocName" : "遭到Y的反對/攻訐",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1542",
+        "AssocPersonName" : "孫升",
+        "AssocCode" : "16",
+        "AssocName" : "遭到Y的反對/攻訐",
+        "Year" : "",
+        "TextTitle" : "元祐初為監察御史 多所建明 惟比蘇軾於王安石 謂其德業器識不足 不可使輔佐經綸",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "10332",
+        "Notes" : "元祐初為監察御史 多所建明 惟比蘇軾於王安石 謂其德業器識不足 不可使輔佐經綸"
+    },{
+                
+        "AssocPersonId" : "3828",
+        "AssocPersonName" : "唐坰",
+        "AssocCode" : "16",
+        "AssocName" : "遭到Y的反對/攻訐",
+        "Year" : "",
+        "TextTitle" : "王安石將用為諫官。尋疑其輕脫，將背己立名，以本官同知諫院，坰果怒，凡上二十疏皆留中，扣陛請對，至詆安石為李林甫、盧杞。",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : "王安石將用為諫官。尋疑其輕脫，將背己立名，以本官同知諫院，坰果怒，凡上二十疏皆留中，扣陛請對，至詆安石為李林甫、盧杞。"
+    },{
+                
+        "AssocPersonId" : "7053",
+        "AssocPersonName" : "呂誨",
+        "AssocCode" : "16",
+        "AssocName" : "遭到Y的反對/攻訐",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "27385",
+        "AssocPersonName" : "魏掞之",
+        "AssocCode" : "16",
+        "AssocName" : "遭到Y的反對/攻訐",
+        "Year" : "",
+        "TextTitle" : "賜同進士出身 為太學錄 因請廢王安石父子從祀 追爵二程 列於祀典",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "23216",
+        "Notes" : "賜同進士出身 為太學錄 因請廢王安石父子從祀 追爵二程 列於祀典"
+    },{
+                
+        "AssocPersonId" : "43344",
+        "AssocPersonName" : "胡舜元",
+        "AssocCode" : "16",
+        "AssocName" : "遭到Y的反對/攻訐",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "333",
+        "AssocPersonName" : "章惇",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "485",
+        "AssocPersonName" : "周穜",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "濤次子 少有遠度 王安石奇之 登熙寧九年進士 調江寧府右司理",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "8078",
+        "Notes" : "濤次子 少有遠度 王安石奇之 登熙寧九年進士 調江寧府右司理"
+    },{
+                
+        "AssocPersonId" : "16667",
+        "AssocPersonName" : "朱壽昌",
+        "AssocCode" : "17",
+        "AssocName" : "被Y欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "51204",
+        "AssocPersonName" : "潘溫之",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "溧陽人 好學 王安石稱為江東書櫃",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "20148",
+        "Notes" : "溧陽人 好學 王安石稱為江東書櫃"
+    },{
+                
+        "AssocPersonId" : "3967",
+        "AssocPersonName" : "王令",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "少不檢 既而折節力學 王安石奇其才 妻以夫人之女弟 令詩學韓孟",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "600",
+        "Notes" : "少不檢 既而折節力學 王安石奇其才 妻以夫人之女弟 令詩學韓孟"
+    },{
+                
+        "AssocPersonId" : "8089",
+        "AssocPersonName" : "劉摯",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "以治行稱 遷御史裏行 王安石一見器異之 顧者不附安石 竟上疏極論新法之弊",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "21383",
+        "Notes" : "以治行稱 遷御史裏行 王安石一見器異之 顧者不附安石 竟上疏極論新法之弊"
+    },{
+                
+        "AssocPersonId" : "12278",
+        "AssocPersonName" : "蕭汝為",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "1080",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "15854",
+        "AssocPersonName" : "郟僑",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "16400",
+        "AssocPersonName" : "周常",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "1370",
+        "AssocPersonName" : "莫君陳",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "熙寧中新置大法科 君陳中首選 甚為王安石所重 有月河所聞集 皆記當時雜事",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "宋人傳記資料索引(電子版)",
+        "Pages" : "15075",
+        "Notes" : "熙寧中新置大法科 君陳中首選 甚為王安石所重 有月河所聞集 皆記當時雜事"
+    },{
+                
+        "AssocPersonId" : "1453",
+        "AssocPersonName" : "沈遼",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "3568",
+        "AssocPersonName" : "林積",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "16667",
+        "AssocPersonName" : "朱壽昌",
+        "AssocCode" : "18",
+        "AssocName" : "欣賞/器重",
+        "Year" : "",
+        "TextTitle" : "乃迎母并二弟歸 由是以孝聞 士大夫自王安石、蘇頌、蘇

@@ -1,0 +1,293 @@
+{
+        
+        "Package" : {
+                
+        "PersonAuthority" : {
+                "DataSource" : "CBDB",
+    
+        "Version" : "20131220",
+        "PersonInfo" : { "Person" :[{
+                
+        "BasicInfo" : {
+                
+        "PersonId" : "30257",
+        "EngName" : "Cao Cao",
+        "ChName" : "曹操",
+        "IndexYear" : "220",
+        "Gender" : "0",
+        "YearBirth" : "155",
+        "DynastyBirth" : "未詳",
+        "EraBirth" : "未詳",
+        "EraYearBirth" : "",
+        "YearDeath" : "220",
+        "DynastyDeath" : "未詳",
+        "EraDeath" : "未詳",
+        "EraYearDeath" : "",
+        "YearsLived" : "66",
+        "Dynasty" : "東漢",
+        "JunWang" : "前魏帝",
+        "Notes" : "Cao(1) Cao [30257] Giles, pp. 761-762."
+    },
+        "PersonSources" : {
+                
+        "Source" : {
+                
+        "Source" : "三國志",
+        "Pages" : "1~55",
+        "Notes" : ""
+    }
+    },
+        "PersonAliases" : { "Alias" :[{
+                
+        "AliasType" : "廟號",
+        "AliasName" : "太祖"
+    },{
+                
+        "AliasType" : "諡號",
+        "AliasName" : "武皇帝"
+    }] },
+        "PersonAddresses" : {
+                
+        "Address" : {
+                
+        "AddrType" : "籍貫(基本地址)",
+        "AddrName" : "洛陽",
+        "belongs1_name" : "河南府",
+        "belongs2_name" : "",
+        "belongs3_name" : "",
+        "belongs4_name" : "",
+        "belongs5_name" : "",
+        "MoveCount" : "0",
+        "FirstYear" : "0",
+        "LastYear" : "0",
+        "Source" : "未知",
+        "Pages" : "0000",
+        "Notes" : ""
+    }
+    },
+        "PersonEntryInfo" : {
+                
+        "Entry" : {
+                
+        "RuShiDoor" : "徵召門",
+        "RuShiType" : "徵辟",
+        "RuShiYear" : "0",
+        "RuShiAge" : "0",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    }
+    },
+        "PersonPostings" : "",
+        "PersonSocialStatus" : {
+                
+        "SocialStatus" : {
+                
+        "StatusName" : "[為官者：文]",
+        "FirstYear" : "0",
+        "LastYear" : "0"
+    }
+    },
+        "PersonKinshipInfo" : { "Kinship" :[{
+                
+        "KinPersonId" : "30256",
+        "KinPersonName" : "曹嵩",
+        "KinCode" : "75",
+        "KinRel" : "F",
+        "KinRelName" : "父",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "135004",
+        "KinPersonName" : "卞氏(曹丕母)",
+        "KinCode" : "163",
+        "KinRel" : "W2",
+        "KinRelName" : "第二任妻",
+        "Source" : "明清婦女著作數據庫",
+        "Pages" : "MQWW PoetID #2721",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "30275",
+        "KinPersonName" : "曹節",
+        "KinCode" : "176",
+        "KinRel" : "D",
+        "KinRelName" : "女兒",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "30261",
+        "KinPersonName" : "曹丕",
+        "KinCode" : "180",
+        "KinRel" : "S",
+        "KinRelName" : "子",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "30268",
+        "KinPersonName" : "曹彰",
+        "KinCode" : "180",
+        "KinRel" : "S",
+        "KinRelName" : "子",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "30269",
+        "KinPersonName" : "曹沖",
+        "KinCode" : "180",
+        "KinRel" : "S",
+        "KinRelName" : "子",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "30270",
+        "KinPersonName" : "曹植",
+        "KinCode" : "180",
+        "KinRel" : "S",
+        "KinRelName" : "子",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "KinPersonId" : "30267",
+        "KinPersonName" : "劉協",
+        "KinCode" : "181",
+        "KinRel" : "DH",
+        "KinRelName" : "女婿",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    }] },
+        "PersonSocialAssociation" : { "Association" :[{
+                
+        "AssocPersonId" : "30281",
+        "AssocPersonName" : "伏完",
+        "AssocCode" : "204",
+        "AssocName" : "處決",
+        "Year" : "220",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    },{
+                
+        "AssocPersonId" : "30282",
+        "AssocPersonName" : "伏壽",
+        "AssocCode" : "204",
+        "AssocName" : "處決",
+        "Year" : "220",
+        "TextTitle" : "[n/a]",
+        "KinPersonId" : "0",
+        "KinPersonName" : "未詳",
+        "KinRelName" : "未詳",
+        "AssocKinPersonId" : "0",
+        "AssocKinPersonName" : "未詳",
+        "AssocKinRelName" : "未詳",
+        "Source" : "未知",
+        "Pages" : "",
+        "Notes" : ""
+    }] },
+        "PersonTexts" : ""
+    },{
+                
+        "BasicInfo" : {
+                
+        "PersonId" : "438100",
+        "EngName" : "Luo Rucai",
+        "ChName" : "羅汝才",
+        "IndexYear" : "1643",
+        "Gender" : "0",
+        "YearBirth" : "",
+        "DynastyBirth" : "",
+        "EraBirth" : "",
+        "EraYearBirth" : "",
+        "YearDeath" : "1643",
+        "DynastyDeath" : "明",
+        "EraDeath" : "崇禎",
+        "EraYearDeath" : "16",
+        "YearsLived" : "",
+        "Dynasty" : "清",
+        "JunWang" : "【未詳】",
+        "Notes" : ""
+    },
+        "PersonSources" : {
+                
+        "Source" : {
+                
+        "Source" : "人名權威資料（中央研究院歷史語言研究所）",
+        "Pages" : "16266",
+        "Notes" : ""
+    }
+    },
+        "PersonAliases" : {
+                
+        "Alias" : {
+                
+        "AliasType" : "室名、別號",
+        "AliasName" : "曹操"
+    }
+    },
+        "PersonAddresses" : {
+                
+        "Address" : {
+                
+        "AddrType" : "籍貫(基本地址)",
+        "AddrName" : "延安府",
+        "belongs1_name" : "陝西省",
+        "belongs2_name" : "清朝",
+        "belongs3_name" : "",
+        "belongs4_name" : "",
+        "belongs5_name" : "",
+        "MoveCount" : "1",
+        "FirstYear" : "",
+        "LastYear" : "",
+        "Source" : "人名權威資料（中央研究院歷史語言研究所）",
+        "Pages" : "16266",
+        "Notes" : ""
+    }
+    },
+        "PersonEntryInfo" : { "Entry" :[{
+                
+        "RuShiDoor" : "正常科舉",
+        "RuShiType" : "科舉: 鄉貢舉人 (宋代賓貢)",
+        "RuShiYear" : "1888",
+        "RuShiAge" : "",
+        "Source" : "人名權威資料（中央研究院歷史語言研究所）",
+        "Pages" : "16253",
+        "Notes" : "光緒14舉人"
+    },{
+                
+        "RuShiDoor" : "",
+        "RuShiType" : "於國內公立私立大學就學、畢業",
+        "RuShiYear" : "1896",
+        "RuShiAge" : "",
+        "Source" : "人名權威資料（中央研究院歷史語言研究所）",
+        "Pages" : "16253",
+        "Notes" : "光緒22選入廣州學海堂專課肄業生"
+    }] },
+        "PersonPostings" : "",
+        "PersonSocialStatus" : "",
+        "PersonKinshipInfo" : "",
+        "PersonSocialAssociation" : "",
+        "PersonTexts" : ""
+    }] }
+    }
+    }}
+    

@@ -6,7 +6,7 @@ var https = require('https');
 router.get('/', (req, res, next) => {
 	let html = "";
 	res.writeHead(200, {'Content-Type': 'application/json'});
-	var path = '/cbdbapi/person.php?id=' + encodeURI(req.query.wd) + '&o=json';
+	var path = '/cbdbapi/person.php?name=' + encodeURI(req.query.wd) + '&o=json';
 	var options = {
 		'host': 'cbdb.fas.harvard.edu',
 		'port': '',
@@ -78,7 +78,7 @@ router.get('/', (req, res, next) => {
 
 		};
 
-		var personEntryInfo = {
+		var personEntryInfoObj = {
 
 		};
 
@@ -293,7 +293,6 @@ router.get('/', (req, res, next) => {
 						entry.push({
 							'door': door,
 							'type': type,
-							'year': year,
 							'info': info,
 						});
 					}else {
@@ -746,4 +745,4 @@ router.get('/', (req, res, next) => {
 	};
 	fn2();
 });
-module.exports = router;  
+module.exports = router;

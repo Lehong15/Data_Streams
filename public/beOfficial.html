@@ -30,6 +30,11 @@
 	<script src="./js/jquery-3.3.1.js"></script>
 	<script type="text/javascript">
 		let id = localStorage.getItem('id');
+		let data1 = '';
+		let firstChar = '';
+		let irst = [];
+		let keys = '';
+		let name = '';
 		$.get(`http://localhost:3000/character/2?wd=${id}`, function(data) {
 			console.log(data);
 			if(data[0].entry == '' && data[0].postings == '') {
@@ -40,27 +45,151 @@
 				})();
 			}else {
 				let entryHtml = ``;
+				name = data[0].name;
+				data1 = data[0].name;
 				for(var k = 0; k < data[0].entry.length; k ++) {
 					entryHtml += `<p><b>入仕方式</b>:${data[0].entry[k].door}</p>`;
 					entryHtml += `<p><b>入仕类型</b>:${data[0].entry[k].type}</p>`;
 					entryHtml += `<p><b>备&emsp;&emsp;注</b>:${data[0].entry[k].info}</p>`;
 					entryHtml += `<hr/>`;
+					data1 += '于公元' + data[0].entry[k].year + '年通过' + data[0].entry[k].door + '入仕，获得' + data[0].entry[k].type + '身份，';
 				}
 				$('#rushidata').html(entryHtml);
 
 				let postingsHtml = ``;
 				for(var j = 0; j < data[0].postings.length; j ++) {
-					postingsHtml += `<p><b>官&nbsp;职&nbsp;名</b>:${data[0].postings[j].name}</p>`;
-					postingsHtml += `<p><b>出任类型</b>:${data[0].postings[j].type}</p>`;
+					postingsHtml += `<p><b>官&nbsp;职&nbsp;名</b>:<a onclick="queryIRST('${data[0].postings[j].name}',1">${data[0].postings[j].name}</a></p>`;
+					postingsHtml += `<p><b>出任类型</b>:<a onclick="queryIRST('${data[0].postings[j].type}',2)">${data[0].postings[j].type}</a></p>`;
 					postingsHtml += `<p><b>出任时间</b>:${data[0].postings[j].firstYear}</p>`;
 					postingsHtml += `<p><b>卸任时间</b>:${data[0].postings[j].lastYear}</p>`;
 					postingsHtml += `<hr/>`;
+					if (data[0].postings[j].firstYear === '0') {
+						data1 += '被' + data[0].postings[j].type + '为' + data[0].postings[j].name + '；';
+					}
+					else {
+						data1 += '于公元' + data[0].postings[j].firstYear + '年被' + data[0].postings[j].type + '为' + data[0].postings[j].name + ';';
+					}
 				}
 				$('#renzhidata').html(postingsHtml);
 
+				data1 = data1.slice(0,-1) + '。#'
+				firstChar = data1[0];
+				createIRST(data1);
 			}
 		});
 
+		//创建IRST算法
+		function createIRST(data) {
+			// 提取字符集
+			var dict1 = {
+			};
+			for (let i = 0; i < data.length; i++) {
+				if (dict1.hasOwnProperty(data[i])) {
+					dict1[data[i]] += 1;
+				}
+				else{
+					dict1[data[i]] = 1;
+				}
+				// console.log(str[i])
+			}
+			// 初始化树
+			let mid = {
+
+			};
+			for (key in dict1) {
+				var child = [{index:0}];
+				for (let i = 0; i < dict1[key]; i++) {
+					child.push({
+						nextD: '',
+						nextI: -1
+					});
+				}
+				mid = {
+					root: key,
+					children: child
+				};
+				irst.push(mid)
+			}
+			// 创建后继树
+			keys = Object.getOwnPropertyNames(dict1);
+			let j,k,index1,index2;
+
+			j = keys.indexOf(data[0]);
+			index1 = irst[j].children[0].index;
+			irst[j].children[index1+1].nextD = data[1];
+
+			for (let i = 1; i < data.length - 1; i++) {
+				j = keys.indexOf(data[i]);
+				index1 = irst[j].children[0].index;
+				irst[j].children[index1+1].nextD = data[i+1];
+
+				k = keys.indexOf(data[i-1]);
+				index2 = irst[k].children[0].index;
+				irst[k].children[index2+1].nextI = index1;
+				irst[k].children[0].index += 1
+			}
+			console.log(irst[0])
+		}
+
+		// 查询算法
+		function queryIRST(queryStr,flag) {
+			let count = 0;
+			let index = keys.indexOf(queryStr[0]);
+			if (queryStr.length === 1) {
+				count = irst[index].children[0].index;
+			}
+
+			let len = irst[index].children.length;
+			for (let i = 1; i < len; i++) {
+				if (irst[index].children[i].nextD === queryStr[1]) {
+					if (query(queryStr.slice(1),irst[index].children[i].nextI)){
+						count += 1
+					}
+				}
+			}
+			function query(qs,i){
+				if (qs.length === 1) {
+					return true
+				}
+				let index2 = keys.indexOf(qs[0]);
+				if (irst[index2].children[i+1].nextD === qs[1]) {
+					return query(queryStr.slice(1),irst[index2].children[i+1].nextI)
+				}
+				return false
+			}
+			console.log(count);
+			if (flag === 1) {
+				alert(name + '共任职' + queryStr + count + '次！')
+			}
+			else {
+				alert(name + '被' + queryStr + '的职位共' + count + '次！')
+			}
+		}
+
+		// 还原原文
+		function restoreText() {
+			let res = firstChar;
+			let index = keys.indexOf(firstChar);
+
+			if (irst[index].children[1].nextD !== '#') {
+				let mid = irst[index].children[1].nextD;
+				res += mid;
+				query(mid,irst[index].children[1].nextI)
+			}
+			function query(qs,i){
+				let index2 = keys.indexOf(qs);
+				if (irst[index2].children[i+1].nextD !== '#') {
+					let mid = irst[index2].children[i+1].nextD;
+					res += mid;
+					query(mid,irst[index2].children[i+1].nextI)
+				}
+				else{
+					res += '#';
+				}
+			}
+			console.log(res);
+			alert('总览：\n' + res.slice(0,-1));
+		}
 	</script>
 	<div class="container">
 		<div id="rushi">
