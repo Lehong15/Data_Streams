@@ -52,13 +52,13 @@
 					entryHtml += `<p><b>入仕类型</b>:${data[0].entry[k].type}</p>`;
 					entryHtml += `<p><b>备&emsp;&emsp;注</b>:${data[0].entry[k].info}</p>`;
 					entryHtml += `<hr/>`;
-					data1 += '于公元' + data[0].entry[k].year + '年通过' + data[0].entry[k].door + '入仕，获得' + data[0].entry[k].type + '身份，';
+					data1 += '通过' + data[0].entry[k].door + '入仕，获得' + data[0].entry[k].type + '身份;';
 				}
 				$('#rushidata').html(entryHtml);
 
 				let postingsHtml = ``;
 				for(var j = 0; j < data[0].postings.length; j ++) {
-					postingsHtml += `<p><b>官&nbsp;职&nbsp;名</b>:<a onclick="queryIRST('${data[0].postings[j].name}',1">${data[0].postings[j].name}</a></p>`;
+					postingsHtml += `<p><b>官&nbsp;职&nbsp;名</b>:<a onclick="queryIRST('${data[0].postings[j].name}',1)">${data[0].postings[j].name}</a></p>`;
 					postingsHtml += `<p><b>出任类型</b>:<a onclick="queryIRST('${data[0].postings[j].type}',2)">${data[0].postings[j].type}</a></p>`;
 					postingsHtml += `<p><b>出任时间</b>:${data[0].postings[j].firstYear}</p>`;
 					postingsHtml += `<p><b>卸任时间</b>:${data[0].postings[j].lastYear}</p>`;
@@ -157,12 +157,13 @@
 				}
 				return false
 			}
+
 			console.log(count);
 			if (flag === 1) {
-				alert(name + '共任职' + queryStr + count + '次！')
+				alert('官职：\n'+ name + '共任职' + queryStr + count + '次！')
 			}
 			else {
-				alert(name + '被' + queryStr + '的职位共' + count + '次！')
+				alert(queryStr + '\n'+ name + '被' + queryStr + '的职位共' + count + '次！')
 			}
 		}
 
@@ -187,7 +188,7 @@
 					res += '#';
 				}
 			}
-			console.log(res);
+			// console.log(res);
 			alert('总览：\n' + res.slice(0,-1));
 		}
 	</script>
@@ -199,7 +200,7 @@
 			
 		</div>
 		<div id="renzhi">
-			<h4>任职</h4>
+			<h4 onclick="restoreText()"><a >任职</a></h4>
 			<div id="renzhidata"></div>
 		</div>
 	</div>

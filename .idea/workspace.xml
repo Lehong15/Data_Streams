@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2f2cb6c-7f8d-45a8-a167-d15bf7d8a42b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jsonfile/1762.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jsonfile/30257.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jsonfile/32227.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/jsonfile/32540.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/beOfficial.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/beOfficial.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/jsonfile/王安石.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/jsonfile/王安石.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/character/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/character/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/character/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/character/2.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Data_Streams" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1Yo33C7Ib4lWHhcccb5ObhNFn43" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Console" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\000 毕业设计\project\Data_Streams\public" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\000 毕业设计\project\Data_Streams\routes" />
+      <recent name="E:\000 毕业设计\project\Data_Streams\public\images" />
+      <recent name="E:\000 毕业设计\project\Data_Streams\public" />
+      <recent name="E:\000 毕业设计\project\Data_Streams\public\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.testIRST.js">
+    <configuration name="1.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/dynasty/1.js" working-dir="$PROJECT_DIR$/routes/dynasty">
+      <method v="2" />
+    </configuration>
+    <configuration name="1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/routes/character/1.js" working-dir="$PROJECT_DIR$/routes/character">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/app.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="character.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/public/js/character.js" working-dir="$PROJECT_DIR$/public/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="testIRST.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/testIRST.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.testIRST.js" />
+        <item itemvalue="Node.js.character.js" />
+        <item itemvalue="Node.js.1.js (1)" />
+        <item itemvalue="Node.js.1.js" />
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2f2cb6c-7f8d-45a8-a167-d15bf7d8a42b" name="Default Changelist" comment="" />
+      <created>1583594917400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583594917400</updated>
+      <workItem from="1583594919496" duration="274000" />
+      <workItem from="1583654221497" duration="1172000" />
+      <workItem from="1584779944182" duration="19000" />
+      <workItem from="1585294424076" duration="698000" />
+      <workItem from="1585295783178" duration="88000" />
+      <workItem from="1585295902339" duration="50000" />
+      <workItem from="1585547728608" duration="37000" />
+      <workItem from="1585974241110" duration="569000" />
+      <workItem from="1585975212714" duration="637000" />
+      <workItem from="1585976493385" duration="609000" />
+      <workItem from="1586008339256" duration="2170000" />
+      <workItem from="1586075362925" duration="8971000" />
+      <workItem from="1586185716797" duration="61000" />
+      <workItem from="1586225018830" duration="3486000" />
+      <workItem from="1586231429150" duration="2029000" />
+      <workItem from="1586238556330" duration="1171000" />
+      <workItem from="1586241789989" duration="283000" />
+      <workItem from="1586325678943" duration="1042000" />
+      <workItem from="1586326764401" duration="3462000" />
+      <workItem from="1586420300306" duration="2894000" />
+      <workItem from="1586498260663" duration="3953000" />
+      <workItem from="1586575020069" duration="5567000" />
+      <workItem from="1586659420630" duration="1715000" />
+      <workItem from="1586661139614" duration="13837000" />
+      <workItem from="1586700670750" duration="695000" />
+      <workItem from="1586702825655" duration="5404000" />
+      <workItem from="1586764323056" duration="2785000" />
+      <workItem from="1586768936172" duration="4624000" />
+      <workItem from="1587041930012" duration="4327000" />
+      <workItem from="1587191988913" duration="917000" />
+      <workItem from="1587225027659" duration="2520000" />
+      <workItem from="1587264614782" duration="2157000" />
+      <workItem from="1587270188147" duration="6988000" />
+      <workItem from="1587559490141" duration="3699000" />
+      <workItem from="1587642211652" duration="8741000" />
+      <workItem from="1587903740149" duration="1226000" />
+    </task>
+    <task id="LOCAL-00001" summary="服务器端代码本地化">
+      <created>1586244344901</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586244344901</updated>
+    </task>
+    <task id="LOCAL-00002" summary="人物 出仕任职">
+      <created>1586679964277</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1586679964278</updated>
+    </task>
+    <task id="LOCAL-00003" summary="IRST 创建和查询算法">
+      <created>1587045723110</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587045723110</updated>
+    </task>
+    <task id="LOCAL-00004" summary="IRST 还原算法">
+      <created>1587270234071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587270234071</updated>
+    </task>
+    <task id="LOCAL-00005" summary="IRST 应用于人物，但未测试&#10;CBDB接口 准备替换，新增jsonfile和character1">
+      <created>1587561148595</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587561148595</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="服务器端代码本地化" />
+    <MESSAGE value="人物 出仕任职" />
+    <MESSAGE value="IRST 创建和查询算法" />
+    <MESSAGE value="IRST 还原算法" />
+    <MESSAGE value="IRST 应用于人物，但未测试&#10;CBDB接口 准备替换，新增jsonfile和character1" />
+    <option name="LAST_COMMIT_MESSAGE" value="IRST 应用于人物，但未测试&#10;CBDB接口 准备替换，新增jsonfile和character1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586666996288">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586666996288" />
+    <state x="296" y="0" key="CommitChangelistDialog2" timestamp="1587561147507">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="296" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1587561147507" />
+    <state x="463" y="115" key="FileChooserDialogImpl" timestamp="1586668634535">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="115" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1586668634535" />
+    <state width="1323" height="218" key="GridCell.Tab.0.bottom" timestamp="1587903832661">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587903832661" />
+    <state width="1323" height="218" key="GridCell.Tab.0.center" timestamp="1587903832660">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587903832660" />
+    <state width="1323" height="218" key="GridCell.Tab.0.left" timestamp="1587903832660">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587903832660" />
+    <state width="1323" height="218" key="GridCell.Tab.0.right" timestamp="1587903832661">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587903832660" />
+    <state x="186" y="0" key="SettingsEditor" timestamp="1586666725760">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="186" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1586666725760" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1587561163149">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1587561163149" />
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587643778112">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="477" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1587643778112" />
+    <state x="370" y="0" width="626" height="728" key="find.popup" timestamp="1587286304984">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="370" y="0" width="626" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1587286304984" />
+    <state x="472" y="166" key="git4idea.merge.GitPullDialog" timestamp="1587643808606">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="472" y="166" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1587643808606" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1586782958174">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1586782958174" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1587642346161">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1587642346161" />
+  </component>
+</project>

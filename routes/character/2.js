@@ -1,48 +1,26 @@
 var express = require('express');
 var router = express.Router();
 var https = require('https');
+var fs = require('fs');
 
 /* GET characters page. */
 router.get('/', (req, res, next) => {
 	let html = "";
 	res.writeHead(200, {'Content-Type': 'application/json'});
-	var path = '/cbdbapi/person.php?id=' + encodeURI(req.query.wd) + '&o=json';
-	var options = {
-		'host': 'cbdb.fas.harvard.edu',
-		'port': '',
-		'path': path,
-		'method': 'get',
-		'headers': {
 
-		},
-		'timeout': 60*1000
-	};
-	function fn1() {
-		return new Promise((resolve, reject) => {
-			let req = https.request(options, (res) => {
-				res.on('data', (data) => {
-					html += data;
-				});
-				res.on('end', () => {
-					resolve(html);
-				});
-				res.on('error', () => {
-					console.log('接口响应时发生错误!');
-				});
-			});
-			req.setTimeout(options.timeout, () => {
-				console.log("Timeout!");
-				html = '{"Package" : {"PersonAuthority" : {"PersonInfo" : ""}}}';
-				resolve(html);
-				req.abort();
-			});
-			req.on('error', (e) => {
-				console.log("请求接口数据时发生错误！" + e.message);
-			});
-			req.end();
-		});
-	};
-	async function fn2() {
+	var path = './public/jsonfile/' + decodeURI(encodeURI(req.query.wd)) + '.json';
+	fs.readFile(path, {encoding:'utf-8'} ,function (err,bytesRead) {
+		if (err) {
+			console.log("请求接口数据时发生错误！" + err);
+		} else {
+			html = bytesRead
+			// console.log(html)
+		}
+		fn2(html)
+
+	});
+
+	async function fn2(html) {
 		var tempObj = {
 
 		};
@@ -78,7 +56,7 @@ router.get('/', (req, res, next) => {
 
 		};
 
-		var personEntryInfo = {
+		var personEntryInfoObj = {
 
 		};
 
@@ -90,7 +68,7 @@ router.get('/', (req, res, next) => {
 
 		};
 
-		let html = await fn1();
+		// let html = await fn1();
 		if (JSON.parse(html).Package.PersonAuthority.PersonInfo == '') {
 			obj = [];
 		} else {
@@ -293,7 +271,6 @@ router.get('/', (req, res, next) => {
 						entry.push({
 							'door': door,
 							'type': type,
-							'year': year,
 							'info': info,
 						});
 					}else {
@@ -744,6 +721,6 @@ router.get('/', (req, res, next) => {
 		res.write(JSON.stringify(obj));
 		res.end();
 	};
-	fn2();
+	// fn2();
 });
-module.exports = router;  
+module.exports = router;
