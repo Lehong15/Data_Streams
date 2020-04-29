@@ -64,10 +64,10 @@
 					postingsHtml += `<p><b>卸任时间</b>:${data[0].postings[j].lastYear}</p>`;
 					postingsHtml += `<hr/>`;
 					if (data[0].postings[j].firstYear === '0') {
-						data1 += '被' + data[0].postings[j].type + '为' + data[0].postings[j].name + '；';
+						data1 += '曾被' + data[0].postings[j].type + '为' + data[0].postings[j].name + '；';
 					}
 					else {
-						data1 += '于公元' + data[0].postings[j].firstYear + '年被' + data[0].postings[j].type + '为' + data[0].postings[j].name + ';';
+						data1 += '于公元' + data[0].postings[j].firstYear + '年被' + data[0].postings[j].type + '为' + data[0].postings[j].name + '；';
 					}
 				}
 				$('#renzhidata').html(postingsHtml);
@@ -132,7 +132,7 @@
 		}
 
 		// 查询算法
-		function queryIRST(queryStr,flag) {
+		function queryIRST(queryStr, flag) {
 			let count = 0;
 			let index = keys.indexOf(queryStr[0]);
 			if (queryStr.length === 1) {
@@ -142,18 +142,23 @@
 			let len = irst[index].children.length;
 			for (let i = 1; i < len; i++) {
 				if (irst[index].children[i].nextD === queryStr[1]) {
+					if (queryStr.length === 2) {
+						count += 1
+					}
 					if (query(queryStr.slice(1),irst[index].children[i].nextI)){
 						count += 1
 					}
 				}
 			}
+
 			function query(qs,i){
-				if (qs.length === 1) {
-					return true
-				}
 				let index2 = keys.indexOf(qs[0]);
 				if (irst[index2].children[i+1].nextD === qs[1]) {
-					return query(queryStr.slice(1),irst[index2].children[i+1].nextI)
+					if (qs.length === 2) {
+						return true
+					} else {
+						return query(qs.slice(1),irst[index2].children[i+1].nextI)
+					}
 				}
 				return false
 			}
