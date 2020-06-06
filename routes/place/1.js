@@ -25,7 +25,7 @@ router.get('/', (req, res, next) => {
 	var path1 = '/place/' + encodeURI(req.query.wd) + '?key=9f1a3bca69ef5f35f1f073558338da1423de484f';
 	var path2 = '/place/' + encodeURI(req.query.wd.substring(0, req.query.wd.length - 1)) + '?key=9f1a3bca69ef5f35f1f073558338da1423de484f';
 	var options1 = {
-		'host': 'data1.library.sh.cn',
+		'host': 'data.library.sh.cn',
 		'port': '',
 		'path': path1,
 		'method': 'get',
@@ -35,7 +35,7 @@ router.get('/', (req, res, next) => {
 		'timeout': 10*1000
 	};
 	var options2 = {
-		'host': 'data1.library.sh.cn',
+		'host': 'data.library.sh.cn',
 		'port': '',
 		'path': path2,
 		'method': 'get',
