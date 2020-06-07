@@ -32,5 +32,3 @@ bin：www为启动文件
 public：包含前端页面设计，css，js，img等
 routes：后端处理
 
-功能介绍见图fun.png
-
